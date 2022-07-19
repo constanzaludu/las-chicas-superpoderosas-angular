@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Condensed:wght@700&family=Roboto:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Condensed:wght@700&family=Roboto:wght@100&display=swap');
 
 .home-div{
     background-image: url('../../../assets/images/powerpuff-girls-wallpaper.jpg');
@@ -29,7 +28,21 @@
 
 }
 
+.info-div{
+    background-color: rgb(186, 235, 198);
+    padding: 2rem 2rem 8rem 2rem;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
 
+}
+.info-title{
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
 @media (min-width: 500px) {
 
     .home-div{
@@ -49,5 +62,9 @@
     }
     .home-subtitle{
         margin-left: 38rem;    
+    }
+    .info-div{
+        padding-bottom:3rem;        
+    
     }
 }
