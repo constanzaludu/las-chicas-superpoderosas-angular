@@ -1,16 +1,13 @@
 <section>
-    <h1 class="burbuja-title">Burbuja</h1>
+    <h1 class="burbuja-title">{{ burbuja.name }}</h1>
     <div class="burbuja-div">
-        <p>
-          La rubia con colitas, es la más «suave y dulce» de las tres, en virtud de su
-          buen humor y afinidad con la naturaleza. Le caracteriza el color azul
-          y el ingrediente que define su personalidad es el azúcar. A menudo se le
-          estima como la más infantil y vulnerable, aunque debajo de esta fachada es en
-          realidad «enérgica y decidida a hacer las cosas bien». Goza de una gran
-          imaginación y a veces elige mediar con actos de amabilidad. Domina el español, puede
-          comunicarse con los animales y su superpoder único es emitir ondas
-          supersónicas.
-        </p>
-        <img src="../../../../assets/images/burbuja.png" alt=""> 
+        <p>{{ burbuja.description }}</p>
+        <img [src]="burbuja.img" alt=""> 
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <button type="button" class="btn btn-outline-secondary" (click)="navigation.goBack()">VOLVER {{navigation.getPreviousUrl()}}</button>
+
+      <h3>History</h3>
+      <span *ngFor="let url of navigation.getHistory(); let i = index"> {{i}}={{url}} </span>
     </div>
 </section>

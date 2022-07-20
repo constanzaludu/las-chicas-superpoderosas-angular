@@ -5,6 +5,7 @@ import { BombonComponent } from './components/personajes/bombon/bombon.component
 import { BurbujaComponent } from './components/personajes/burbuja/burbuja.component';
 import { HomeComponent } from './components/home/home.component';
 import { OtrosPersonajesComponent } from './components/otros-personajes/otros-personajes.component';
+import { GaleriaDeFotosComponent } from './components/galeria-de-fotos/galeria-de-fotos.component';
 
 const routes: Routes = [
 
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: "bombon", component: BombonComponent, pathMatch:"full"},
   { path: "bellota", component: BellotaComponent, pathMatch:"full"},
   { path: "otros-personajes", component: OtrosPersonajesComponent, pathMatch:"full"},
+  { path: "galeria-de-fotos", component: GaleriaDeFotosComponent, pathMatch:"full"},
   { path: "**", component: HomeComponent} //AGREGAR ErrorComponent
 ];
 

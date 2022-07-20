@@ -1,29 +1,33 @@
-[{
+[
+  {
     "main": [
-        { 
-            "name": "Burbuja", 
-            "description":"sss",
-            "img": "../../"
-        },{ 
-            "name": "Bombón",
-            "description":"sss",
-            "img": "../../"
-        },{ 
-            "name": "Bellota",
-            "description":"sss",
-            "img": "../assets/images/martinez.jpg"
-        }
+      {
+        "name": "Burbuja",
+        "description": " La rubia con colitas, es la más «suave y dulce» de las tres, en virtud de su buen humor y afinidad con la naturaleza. Le caracteriza el color azul y el ingrediente que define su personalidad es el azúcar. A menudo se le estima como la más infantil y vulnerable, aunque debajo de esta fachada es en realidad «enérgica y decidida a hacer las cosas bien». Goza de una gran imaginación y a veces elige mediar con actos de amabilidad. Domina el español, puede comunicarse con los animales y su superpoder único es emitir ondas supersónicas.",
+        "img": "../assets/images/burbuja.png"
+      },
+      {
+        "name": "Bombón",
+        "description": "  Bombón es la líder autoproclamada del equipo,admiradora de los roles femeninos en la sociedad. Su color característico es el rosa y el ingrediente predominante en su personalidad es «todo lo bueno», de acuerdo con la combinación de estos elementos en la secuencia de apertura. Luce una larga cabellera pelirroja que funge visualmente como una capa y un gran moño rojo representativo de una corona. Es la miembro más metódica y sensata del trío, aunque a veces su carácter es demasiado imperativo o arrogante. Su superpoder especial es el «aliento de hielo».",
+        "img": "../assets/images/bombon.png"
+      },
+      {
+        "name": "Bellota",
+        "description": "Bellota es la más ruda del trío y quien toma decisiones espontáneas; el sitio web de Cartoon Network la califica como una «marimacho». Su ceño casi siempre fruncido y resistencia a mostrar su lado sensible crean un contraste con la postura alegre de sus hermanas. Las especias definen su personalidad, el verde la representa y su cabello negro con estilo bob no tiene arreglos. Posee un fuerte temperamento, por lo que su modo de proceder es usualmente el más impulsivo o frenético, y en ocasiones manifiesta una actitud revoltosa. Es la única Powerpuff Girl que no tiene una habilidad única.",
+        "img": "../assets/images/bellota.png"
+      }
     ],
-
     "secondary": [
-            { 
-                "name": "Mojo Jojo",
-                "description": "ss",
-                "img": "../assets/images/mojo-jojo.PNG"
-            },
-            { 
-                "name": "Profesor Utonium",
-                "description": "ss",
-                "img": "../asserts/images/utonium.png"
-            }]
-        }]
+      {
+        "name": "Mojo Jojo",
+        "description": "Mojo Jojo es un chimpancés científico de mente notable. Es el principal archienemigo del Profesor Utonio y Las Chicas Superpoderosas. Constantemente conspira para apoderarse del mundo y/o destruir a Las Chicas Superpoderosas.",
+        "img": "../assets/images/mojo-jojo.png"
+      },
+      {
+        "name": "Profesor Utonium",
+        "description": "El profesor Utonium es el creador y padre de las chicas superpoderosas. Las creó en su intento de crear a la «niña perfecta», pero la adición accidental de un misterioso químico resultó en estas tres pequeñas que poseen un variado conjunto de superpoderes. Es un hombre muy organizado y puntual.",
+        "img": "./assets/images/Utonium.png"
+      }
+    ]
+  }
+]

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Character } from 'src/app/model/character';
 import { CharactersService } from 'src/app/services/characters.service';
 
 @Component({
@@ -8,16 +9,16 @@ import { CharactersService } from 'src/app/services/characters.service';
 })
 export class OtrosPersonajesComponent implements OnInit {
   
-  secondary : string[] = [];
+  secondaryCharacters : Character[] = [];
   characters: any[] = [];
 
   constructor(private charactersService : CharactersService) { }
 
   ngOnInit(): void {
   
-  this.characters = this.charactersService.createCharacter();
+  this.characters = this.charactersService.getCharacter();
   this.characters.map(element => {
-    this.secondary = element.secondary
+    this.secondaryCharacters = element.secondary
   });
   
   

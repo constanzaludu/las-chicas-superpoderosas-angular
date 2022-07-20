@@ -1,18 +1,11 @@
 <section>
-
-  <h1 class="bellota-title">Bellota</h1>
+  <h1 class="bellota-title"> {{ bellota.name }}</h1>
   <div class="bellota-div">
-    <p>
-      Bellota es la más ruda del trío y quien toma decisiones espontáneas; el sitio web
-      de Cartoon Network la califica como una «marimacho». Su ceño casi
-      siempre fruncido y resistencia a mostrar su lado sensible crean un
-      contraste con la postura alegre de sus hermanas. Las especias definen
-      su personalidad, el verde la representa y su cabello negro con estilo bob
-      no tiene arreglos. Posee un fuerte temperamento, por lo que su modo
-      de proceder es usualmente el más impulsivo o frenético, y en ocasiones
-      manifiesta una actitud revoltosa. Es la única Powerpuff Girl
-      que no tiene una habilidad única.
-    </p>
-    <img src="../../../../assets/images/bellota.png" alt="" />
+    <p> {{ bellota.description }}</p>
+    <img [src]="bellota.img" alt="" />
   </div>
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <button type="button" class="btn btn-outline-secondary" type="button" (click)="navigation.goBack()">VOLVER {{navigation.getPreviousUrl()}}</button>
+    <span *ngFor="let url of navigation.getHistory(); let i = index"> {{i}}={{url}} </span>
+</div>
 </section>
