@@ -7,12 +7,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { BurbujaComponent } from './components/burbuja/burbuja.component';
-import { BombonComponent } from './components/bombon/bombon.component';
-import { BellotaComponent } from './components/bellota/bellota.component';
+import { BurbujaComponent } from './components/personajes/burbuja/burbuja.component';
+import { BombonComponent } from './components/personajes/bombon/bombon.component';
+import { BellotaComponent } from './components/personajes/bellota/bellota.component';
 import { OtrosPersonajesComponent } from './components/otros-personajes/otros-personajes.component';
-import { GaleriaDeFotosComponent } from './components/galeria-de-fotos/galeria-de-fotos.component';
-import { ContactoComponent } from './components/contacto/contacto.component';
+// import { GaleriaDeFotosComponent } from './components/galeria-de-fotos/galeria-de-fotos.component';
+// import { ContactoComponent } from './components/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -24,8 +24,8 @@ import { ContactoComponent } from './components/contacto/contacto.component';
     BombonComponent,
     BellotaComponent,
     OtrosPersonajesComponent,
-    GaleriaDeFotosComponent,
-    ContactoComponent
+    // GaleriaDeFotosComponent,
+    // ContactoComponent
   ],
   imports: [
     BrowserModule,

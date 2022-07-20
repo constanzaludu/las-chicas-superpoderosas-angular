@@ -1,0 +1,29 @@
+[{
+    "main": [
+        { 
+            "name": "Burbuja", 
+            "description":"sss",
+            "img": "../../"
+        },{ 
+            "name": "Bombón",
+            "description":"sss",
+            "img": "../../"
+        },{ 
+            "name": "Bellota",
+            "description":"sss",
+            "img": "../assets/images/martinez.jpg"
+        }
+    ],
+
+    "secondary": [
+            { 
+                "name": "Mojo Jojo",
+                "description": "ss",
+                "img": "../assets/images/mojo-jojo.PNG"
+            },
+            { 
+                "name": "Profesor Utonium",
+                "description": "ss",
+                "img": "../asserts/images/utonium.png"
+            }]
+        }]
