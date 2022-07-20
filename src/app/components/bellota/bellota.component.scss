@@ -1,0 +1,53 @@
+section{
+    padding-top: 4.5rem;
+    height: 100vh;
+    background-color: rgb(196, 196, 196);
+}
+.bellota-div{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.bellota-title{
+padding-left: 2rem;
+font-weight: bold;
+margin-bottom: 0;
+
+}
+p{
+padding: 1rem 2rem 2rem 2rem;
+font-size: 1rem;
+}
+img{
+padding: 0 2rem 2rem 2rem;
+height: 22rem;
+width:fit-content;
+}
+@media (min-width: 768px) {
+.bellota-div{
+    flex-direction: row;
+    align-items: center;
+}
+p{
+padding: 1rem;
+}
+img{
+    padding-top: 2rem;
+    height: 16rem !important;
+}
+}
+@media (min-width: 992px) {
+.bellota-div{
+    flex-direction: row;
+    align-items: center;
+}
+p{
+    padding: 2rem;
+}
+img{
+    padding-top: 2rem;
+    height: 25rem !important;
+}
+
+
+}
