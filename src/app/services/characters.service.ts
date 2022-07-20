@@ -12,7 +12,7 @@ export class CharactersService {
   constructor() { }
 
 
-  createCharacter = () : Character[] => {
+  getCharacter = () : Character[] => {
 
     for (let index = 0; index < jsonFile.length; index++) {
       const element = jsonFile[index];

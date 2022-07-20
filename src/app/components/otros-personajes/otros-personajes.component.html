@@ -1,18 +1,9 @@
 <section class="cards-section">
-    <div class="mojo-card" style="width: 20rem;">
-        <img src="../../../assets/images/mojo-jojo.png" class="card-img-top" alt="...">
+    <div class="card" style="width: 20rem;" *ngFor="let character of secondaryCharacters">
+        <img [src]="character.img" class="card-img-top" alt="...">
         <div class="card-body">
-        <h5 class="card-title">Mojo Jojo</h5>
-        <p class="card-text">Mojo Jojo es un chimpancés científico de mente notable. Es el principal archienemigo del Profesor Utonio y Las Chicas Superpoderosas. Constantemente conspira para apoderarse del mundo y/o destruir a Las Chicas Superpoderosas.</p>
+        <h5 class="card-title"> {{ character.name }}</h5>
+        <p class="card-text">{{ character.description}}</p>
         </div>
     </div>
-
-    <div class="prof-card" style="width: 20rem;">
-        <img src="../../../assets/images/Utonium.png" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title">Profesor Utonium</h5>
-        <p class="card-text">El profesor Utonium es el creador y el padre de Las Chicas Superpoderosas. Es un ingeniero en genética muy organizado, puntual.</p>
-        </div>
-    </div>
-
 </section>
