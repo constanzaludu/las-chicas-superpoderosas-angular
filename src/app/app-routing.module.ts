@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BellotaComponent } from './components/bellota/bellota.component';
-import { BombonComponent } from './components/bombon/bombon.component';
-import { BurbujaComponent } from './components/burbuja/burbuja.component';
+import { BellotaComponent } from './components/personajes/bellota/bellota.component';
+import { BombonComponent } from './components/personajes/bombon/bombon.component';
+import { BurbujaComponent } from './components/personajes/burbuja/burbuja.component';
 import { HomeComponent } from './components/home/home.component';
+import { OtrosPersonajesComponent } from './components/otros-personajes/otros-personajes.component';
 
 const routes: Routes = [
 
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: "burbuja", component: BurbujaComponent, pathMatch:"full"},
   { path: "bombon", component: BombonComponent, pathMatch:"full"},
   { path: "bellota", component: BellotaComponent, pathMatch:"full"},
+  { path: "otros-personajes", component: OtrosPersonajesComponent, pathMatch:"full"},
   { path: "**", component: HomeComponent} //AGREGAR ErrorComponent
 ];
 

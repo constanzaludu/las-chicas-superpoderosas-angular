@@ -39,7 +39,7 @@ img{
 @media (min-width: 992px) {
 .bombon-div{
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
 }
 p{
     padding: 2rem;
