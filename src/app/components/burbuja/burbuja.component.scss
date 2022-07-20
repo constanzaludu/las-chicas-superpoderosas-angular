@@ -1,0 +1,48 @@
+section{
+        height: 100vh;
+        background-color: rgb(196, 196, 196);
+    }
+.burbuja-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.burbuja-title{
+    padding-top: 4.5rem;
+    padding-left: 2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+p{
+    padding: 1rem 2rem 2rem 2rem;
+    font-size: 1rem;
+}
+img{
+    padding: 0 2rem 2rem 2rem;
+    height: 22rem;
+    width:fit-content;
+}
+@media (min-width: 500px) {
+    .burbuja-div{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    p{
+    padding: 1rem;
+    }
+    img{
+        height: 16rem !important;
+    }
+}
+@media (min-width: 768px) {
+    
+    p{
+        padding: 2rem;
+    }
+    img{
+        height: 25rem !important;
+    }
+
+
+}
